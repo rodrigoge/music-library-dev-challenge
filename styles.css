@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+aside{
+    width: 300px;
+    height: 100%;
+    background-color: #050014;
+    position: absolute;
+}
+
+aside .profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18%;
+}
+
+aside .profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+}
+
+aside .profile div{   
+    margin-left: 14px;
+}
+
+aside .profile div #name{
+    font-size: 16px;
+    font-weight: bold;
+    color: #e5e5e5e7;
+}
+
+aside .profile div #edit-profile{
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+aside .profile div #edit-profile svg{
+    margin-left: 4px;
+}
+
+aside .profile div #edit-profile:hover{
+    color: #e5e5e5e7;
+}
+
+aside nav.menu{
+    margin-top: 40%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside nav.menu ul hr{
+    margin: 12px 0;
+    width: 130px;
+    border-color: #180b41;
+}
+
+aside nav.menu ul li{
+    list-style: none;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+aside nav.menu ul li a{
+    text-decoration: none;
+    color: #555;
+    margin-left: 6px;
+}
+
+aside nav.menu ul li svg{
+    color: #555;
+}
+
+aside nav.menu ul li:hover a, aside nav.menu ul li:hover svg{
+    color: #e5e5e5e7;
+    transition: 0.5s;
+}
+
+aside nav.menu ul li.active a, aside nav.menu ul li.active svg{
+    color: #e5e5e5e7;
+}
+
+aside nav.menu ul li:hover.active a, aside nav.menu ul li:hover.active svg{
+    color: #381b98;
+}
+
