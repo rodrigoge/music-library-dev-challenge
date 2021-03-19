@@ -9,6 +9,10 @@ html, body{
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background-color: #140028;
+}
+
 aside{
     width: 300px;
     height: 100%;
@@ -101,4 +105,159 @@ aside nav.menu ul li.active a, aside nav.menu ul li.active svg{
 aside nav.menu ul li:hover.active a, aside nav.menu ul li:hover.active svg{
     color: #381b98;
 }
+
+main .search-bar{
+    color: #e5e5e5e7;
+    margin-left: 26%;
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .search-bar input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    margin-left: 8px;
+    color: #e5e5e5e7;
+}
+
+main .search-bar input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .main-panel{
+    margin-left: 26%;
+    padding-top: 2%;
+    color: #e5e5e5e7;
+    width: 980px;
+}
+
+main .main-panel .main-carrousel-tracks{
+    margin-top: 16px;
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    height: 265px;
+    cursor: pointer;
+}
+
+main .main-panel .main-carrousel-tracks::-webkit-scrollbar{
+    height: 6px;
+}
+
+main .main-panel .main-carrousel-tracks::-webkit-scrollbar-track {
+    background: #180b41; 
+    border-radius: 10px;
+}
+
+main .main-panel .main-carrousel-tracks::-webkit-scrollbar-thumb {
+    background: #381b98; 
+    border-radius: 10px;
+}
+
+main .main-panel .main-carrousel-tracks .card{
+    padding-right: 26px;
+}
+
+main .main-panel .card img{
+    width: 280px;
+    height: 200px;
+}
+
+main .main-panel .card h4{
+    margin-top: 5px;
+}
+
+main .main-panel .card label{
+    font-size: 10px;
+}
+
+footer{
+    margin-left: 26%;
+    margin-top: 2%;
+    display: flex;
+    width: 980px; 
+    color: #e5e5e5e7;
+}
+
+footer .profile-views .profile{
+    display: flex;
+    width: 200px;
+    margin-top: 20px;
+}
+
+footer .profile-views .profile img{
+    width: 40px;
+    height: 40px;
+}
+
+footer .profile-views .profile div{
+    margin-left: 6px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .profile-views .profile div td{
+    margin-top: 30px;
+}
+
+footer .profile-views .profile div h3 {
+    margin-bottom: 10px;
+}
+
+footer .tracks{
+    margin-left: 20%;
+    width: 580px;
+}
+
+footer .tracks .footer-carrousel-tracks{
+    margin-top: 6px;
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    height: 185px;
+    cursor: pointer;
+}
+
+footer .tracks .footer-carrousel-tracks::-webkit-scrollbar{
+    height: 6px;
+    
+}
+
+footer .tracks .footer-carrousel-tracks::-webkit-scrollbar-track {
+    background: #180b41; 
+    border-radius: 10px;
+    
+}
+
+footer .tracks .footer-carrousel-tracks::-webkit-scrollbar-thumb {
+    background: #381b98; 
+    border-radius: 10px;
+}
+
+footer .tracks .footer-carrousel-tracks .card{
+    padding-right: 26px;
+}
+
+footer .tracks .footer-carrousel-tracks .card img{
+    width: 150px;
+    height: 110px;
+}
+
+footer .tracks .footer-carrousel-tracks .card h4{
+    margin-top: 5px;
+}
+
+footer .tracks .footer-carrousel-tracks .card label{
+    font-size: 10px;
+}
+
+
+
+
 
